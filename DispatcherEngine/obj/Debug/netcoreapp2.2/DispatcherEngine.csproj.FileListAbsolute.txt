@@ -1,0 +1,12 @@
+E:\Arc\DispatcherEngine\bin\Debug\netcoreapp2.2\DispatcherEngine.deps.json
+E:\Arc\DispatcherEngine\bin\Debug\netcoreapp2.2\DispatcherEngine.dll
+E:\Arc\DispatcherEngine\bin\Debug\netcoreapp2.2\DispatcherEngine.pdb
+E:\Arc\DispatcherEngine\bin\Debug\netcoreapp2.2\Common.Contract.dll
+E:\Arc\DispatcherEngine\bin\Debug\netcoreapp2.2\Common.Contract.pdb
+E:\Arc\DispatcherEngine\obj\Debug\netcoreapp2.2\DispatcherEngine.csprojAssemblyReference.cache
+E:\Arc\DispatcherEngine\obj\Debug\netcoreapp2.2\DispatcherEngine.csproj.CoreCompileInputs.cache
+E:\Arc\DispatcherEngine\obj\Debug\netcoreapp2.2\DispatcherEngine.AssemblyInfoInputs.cache
+E:\Arc\DispatcherEngine\obj\Debug\netcoreapp2.2\DispatcherEngine.AssemblyInfo.cs
+E:\Arc\DispatcherEngine\obj\Debug\netcoreapp2.2\DispatcherEngine.csproj.CopyComplete
+E:\Arc\DispatcherEngine\obj\Debug\netcoreapp2.2\DispatcherEngine.dll
+E:\Arc\DispatcherEngine\obj\Debug\netcoreapp2.2\DispatcherEngine.pdb

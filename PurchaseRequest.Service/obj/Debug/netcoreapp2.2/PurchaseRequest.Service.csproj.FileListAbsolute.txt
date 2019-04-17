@@ -1,0 +1,14 @@
+E:\Arc\PurchaseRequest.Service\bin\Debug\netcoreapp2.2\PurchaseRequest.Service.deps.json
+E:\Arc\PurchaseRequest.Service\bin\Debug\netcoreapp2.2\PurchaseRequest.Service.dll
+E:\Arc\PurchaseRequest.Service\bin\Debug\netcoreapp2.2\PurchaseRequest.Service.pdb
+E:\Arc\PurchaseRequest.Service\bin\Debug\netcoreapp2.2\Common.Contract.dll
+E:\Arc\PurchaseRequest.Service\bin\Debug\netcoreapp2.2\PurchaseRequest.Contract.dll
+E:\Arc\PurchaseRequest.Service\bin\Debug\netcoreapp2.2\Common.Contract.pdb
+E:\Arc\PurchaseRequest.Service\bin\Debug\netcoreapp2.2\PurchaseRequest.Contract.pdb
+E:\Arc\PurchaseRequest.Service\obj\Debug\netcoreapp2.2\PurchaseRequest.Service.csprojAssemblyReference.cache
+E:\Arc\PurchaseRequest.Service\obj\Debug\netcoreapp2.2\PurchaseRequest.Service.csproj.CoreCompileInputs.cache
+E:\Arc\PurchaseRequest.Service\obj\Debug\netcoreapp2.2\PurchaseRequest.Service.AssemblyInfoInputs.cache
+E:\Arc\PurchaseRequest.Service\obj\Debug\netcoreapp2.2\PurchaseRequest.Service.AssemblyInfo.cs
+E:\Arc\PurchaseRequest.Service\obj\Debug\netcoreapp2.2\PurchaseRequest.Service.csproj.CopyComplete
+E:\Arc\PurchaseRequest.Service\obj\Debug\netcoreapp2.2\PurchaseRequest.Service.dll
+E:\Arc\PurchaseRequest.Service\obj\Debug\netcoreapp2.2\PurchaseRequest.Service.pdb

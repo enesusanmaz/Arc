@@ -1,0 +1,8 @@
+E:\Arc\Common.Contract\bin\Debug\netcoreapp2.2\Common.Contract.deps.json
+E:\Arc\Common.Contract\bin\Debug\netcoreapp2.2\Common.Contract.dll
+E:\Arc\Common.Contract\bin\Debug\netcoreapp2.2\Common.Contract.pdb
+E:\Arc\Common.Contract\obj\Debug\netcoreapp2.2\Common.Contract.csproj.CoreCompileInputs.cache
+E:\Arc\Common.Contract\obj\Debug\netcoreapp2.2\Common.Contract.AssemblyInfoInputs.cache
+E:\Arc\Common.Contract\obj\Debug\netcoreapp2.2\Common.Contract.AssemblyInfo.cs
+E:\Arc\Common.Contract\obj\Debug\netcoreapp2.2\Common.Contract.dll
+E:\Arc\Common.Contract\obj\Debug\netcoreapp2.2\Common.Contract.pdb
