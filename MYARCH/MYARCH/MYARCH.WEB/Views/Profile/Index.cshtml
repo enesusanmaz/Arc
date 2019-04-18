@@ -1,0 +1,162 @@
+﻿@{
+    ViewBag.Title = "Profil Sayfası";
+}
+@section pageTitle{Profil İşlemleri}
+@using MYARCH.UTILITIES.SessionOperations
+@model MYARCH.DTO.EEntity.EUserDTO
+@{
+    var FullName = ((SessionContext)Session["SessionContext"]).FullName;
+    var Job = ((SessionContext)Session["SessionContext"]).Job;
+    var ImageUrl = ((SessionContext)Session["SessionContext"]).ImageUrl;
+}
+<div class="row profile">
+    <div class="col-md-3">
+        <div class="profile-sidebar card-shadow">
+            <div class="profile-userpic">
+                <img src="@ImageUrl" class="img-responsive" alt="">
+            </div>
+            <div class="profile-usertitle">
+                <div class="profile-usertitle-name">
+                    @FullName
+                </div>
+                <div class="profile-usertitle-job">
+                    @Job
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="profile-content card-shadow">
+            <div class="tabbable-panel">
+                <div class="tabbable-line">
+                    <ul class="nav nav-tabs ">
+                        <li class="active">
+                            <a href="#tab_informations" data-toggle="tab">
+                                Bilgiler
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab_pass_reset" data-toggle="tab">
+                                Şifre Yenile
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab_image_change" data-toggle="tab">
+                                Profile Resmi
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tab_informations">
+                            <div class="form-group">
+                                <label class="control-label">Tam Adı</label>
+                                <input id="inputFullName" type="text" class="form-control" placeholder="Tam Adı" value="@Model.FullName" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Meslek</label>
+                                <input id="inputJob" type="text" class="form-control" placeholder="Meslek" value="@Model.Job" />
+                            </div>
+                            <div class="form-group">
+                                <a href="javascript:funcUserUpdateByFJ()" class="btn btn-primary">Değişiklikleri Kaydet</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab_pass_reset">
+                            <div class="form-group">
+                                <label class="control-label">Kullanıcı Adı</label>
+                                <input id="inputUserName" type="text" class="form-control" placeholder="kullanıcı adı" value="@Model.UserName" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Şifre</label>
+                                <input id="inputPassword" type="password" class="form-control" placeholder="şifre" value="@Model.Password" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Şifre Tekrarı</label>
+                                <input id="inputPasswordAgain" type="password" class="form-control" placeholder="şifreyi tekrar yaz" />
+                            </div>
+                            <div class="form-group">
+                                <a href="#" onclick="funcUserUpdateByUP()" class="btn btn-primary">Değişiklikleri Kaydet</a>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tab_image_change">
+                            <div class="col-md-12  row">
+                                <div class="col-md-3 thumbnail">
+                                    <img id="imgProfile" src="@ImageUrl">
+                                </div>
+                            </div>
+                            <div class="col-md-12 row" style=" margin-top: 10px;">
+                                <div class="caption">
+                                    <input id="fileSelect" type="file" accept="image/*" onchange="funcImageChange(this)" style="display:none;" />
+                                    <a href="#" onclick="$('#fileSelect').click()" class="btn btn-warning">Resim Seç</a>
+                                    <a href="#" onclick="funcUserImageUpdate()" class="btn btn-success">Güncelle</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
+<script>
+    function funcUserUpdateByFJ() {
+        if ($("#inputFullName").val().trim() != "" && $("#inputJob").val().trim() != "") {
+            var data = { WhichUpdate: "FJ", FullName: $("#inputFullName").val(), Job: $("#inputJob").val() };
+            $.ajax({
+                url: "/admin/profile/update",
+                type: "post",
+                data: data,
+                success: function (e) {
+                    if (e == true)
+                        ShowMessage("success", "Tebrikler", "Değişiklikler Başarıyla Gerçekleşti.");
+                }
+            })
+        } else {
+            ShowMessage("warning", "Boş Alanlar", "Lütfen ilgi boş alan bırakmayınız.");
+        }
+    }
+    function funcUserUpdateByUP() {
+        if ($("#inputUserName").val().trim() != "" && $("#inputPassword").val().trim() != "") {
+            if ($("#inputPassword").val().trim() == $("#inputPasswordAgain").val().trim()) {
+                var data = { WhichUpdate: "UP", UserName: $("#inputUserName").val(), Password: $("#inputPassword").val() };
+                $.ajax({
+                    url: "/admin/profile/update",
+                    type: "post",
+                    data: data,
+                    success: function (e) {
+                        if (e == true)
+                            ShowMessage("success", "Tebrikler", "Değişiklikler Başarıyla Gerçekleşti.");
+                    }
+                })
+            } else {
+                ShowMessage("info", "Şifreler Farklı", "Lütfen şifreleri aynı giriniz.");
+            }
+        } else {
+            ShowMessage("warning", "Boş Alanlar", "Lütfen ilgi boş alan bırakmayınız.");
+        }
+    }
+    function funcImageChange(e) {
+        var data = new FormData();
+        data.append("ImageFormData", e.files[0]);
+        $.ajax({
+            url: "/admin/profile/tempimage",
+            type: "post",
+            data: data,
+            cache: false,
+            processData: false,
+            contentType: false,
+            success: function (e) {
+                $("#imgProfile").attr("src", "/profile/tempimageshow");
+            }
+        })
+    }
+    function funcUserImageUpdate(){ 
+        $.ajax({
+            url: "/admin/profile/UserImageUpdate",
+            type: "post", 
+            success: function (e) {
+                if (e == true)
+                    ShowMessage("success", "Tebrikler", "Değişiklikler Başarıyla Gerçekleşti."); 
+            }
+        })
+    }
+</script>

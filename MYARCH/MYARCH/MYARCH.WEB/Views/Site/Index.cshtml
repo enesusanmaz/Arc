@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Teknoloji Makaleleri";
+    Layout = "~/Views/Shared/_Site_Layout.cshtml";
+}
+@model List<MYARCH.DTO.EEntity.EPostUserDTO>
+<div class="row">
+    @foreach (var item in Model)
+    {  
+        <div class="col-lg-4">
+        <div class="card hovercard" >
+            <div class="cardheader bgGreen" style="background-image:url(@item.PostImageUrl)">
+                <div class="post-overlay"></div>
+                <div class="title" style="text-align:left;position:absolute; bottom:0; color:#fff;">
+                    <img class="img-responsive img-circle " src="@item.UserImageUrl/50/50"/>
+                    <div class="user-info"><h4>@item.FullName<sm>@item.Job</sm></h4></div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="title">@item.Title</div>
+            </div>
+            <hr />
+            <div class="info">
+                <div class="short-description">@item.ShortDescription</div>
+            </div>
+            <hr />
+            <div class="bottom">
+                <a href="/@MYARCH.UTILITIES.StringOperations.StringManager.ToSlug(item.CategoryName)/@item.Slug">   
+                  <i class="fa fa-external-link pull-left"></i> Git</a>
+                <a href="//facebook.com/sharer/sharer.php?u=@Request.Url@MYARCH.UTILITIES.StringOperations.StringManager.ToSlug(item.CategoryName)/@item.Slug" target="_blank">
+                    <i class="fa fa-facebook pull-right"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter pull-right"></i>
+                </a>
+                <a href="#">   <i class="fa fa-google-plus pull-right"></i></a>
+            </div>
+        </div>
+    </div>
+
+    }
+
+</div>

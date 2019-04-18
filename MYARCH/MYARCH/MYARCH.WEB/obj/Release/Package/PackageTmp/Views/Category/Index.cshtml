@@ -1,0 +1,157 @@
+﻿@{
+    ViewBag.Title = "Kategori Sayfası";
+}
+@section pageTitle{Kategori İşlemleri}
+<div class="row">
+    <div class="col-lg-12">
+        <div class="portlet card-shadow">
+            <div class="portlet-title">
+                <div class="caption caption-red">
+                    <i class="fa fa-list"></i>
+                    <span class="caption-subject text-uppercase"> Kategori Listesi</span>
+                </div>
+                <div class="actions">
+                    <a href="javascript:funcCreateNewCategory();" class="btn btn-red btn-circle active">
+                        <i class="fa fa-plus"></i> Yeni Kategori Oluştur
+                    </a>
+                </div>
+            </div>
+            <div class="portlet-body">
+                <div class="form-inline">
+                    <div class="form-group">
+                        <label class="control-label">Kategori Adı</label>
+                        <input id="inputCategoryId" type="text" class="form-control" style="display:none" />
+                        <input id="inputCategoryName" type="text" class="form-control" placeholder="kategori adı..." />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Renk Seç</label>
+                        <input id="inputColor" type="color" class="form-control" style="width:100px; display:block;" />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label">Icon Uzantısı</label>
+                        <input id="inputIcon" type="text" class="form-control" placeholder="icon..." />
+                    </div>
+                    <div class="form-group ">
+                        <label class="control-label"></label>
+
+                        <a href="javascript:funcCategorySave();" class="btn btn-primary" style="display:block; margin-top:3px; ">
+                            <i class="fa fa-check"></i> Kaydet
+                        </a>
+
+                    </div>
+                </div>
+                <table class="table table-striped custab">
+                    <thead>
+                        <tr>
+                            <th>Adı</th>
+                            <th>Renk</th>
+                            <th>İcon</th>
+                            <th class="text-center"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyCategoryList">
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.Name</td>
+                                <td>@item.Color</td>
+                                <td>@item.Icon</td>
+                                <td class="text-center">
+                                    <a href="javascript:funcGetCategoryDetailByCategoryId(@item.Id)" class="btn btn-primary">
+                                        <i class="fa fa-edit"></i>
+                                    </a>
+                                    <a href="javascript:funcIsOkeyForDelete(@item.Id)" class="btn btn-danger">
+                                        <i class="fa fa-trash"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function funcCreateNewCategory() {
+        $("#inputCategoryId").val(0)
+        $("#inputCategoryName").val("");
+        $("#inputColor").val("#fff");
+        $("#inputIcon").val("");
+    }
+    function funcCategorySave() {
+        var url = "";
+        if ($("#inputCategoryId").val() == 0)
+            url = "/admin/category/insert";
+        else
+            url = "/admin/category/update";
+        var data =
+            {
+                Id: $("#inputCategoryId").val(),
+                Name: $("#inputCategoryName").val(),
+                Color: $("#inputColor").val(),
+                Icon: $("#inputIcon").val(),
+            };
+        $.ajax({
+            url: url,
+            type: "post",
+            data: JSON.stringify(data),
+            contentType: "application/json; charset=utf-8",
+            success: function (e) {
+                if (e == true) { 
+                    ShowMessage("success", "Tebrikler", "Değişiklikler Başarıyla Gerçekleşti.");
+                    window.location.reload();
+                }
+
+            }
+        });
+    }
+    function funcGetCategoryDetailByCategoryId(e) {
+        $.ajax({
+            url: "/admin/category/GetCategoryDetailByCategoryId?categoryId=" + e,
+            type: "get",
+            success: function (e) {
+                $("#inputCategoryId").val(e.Id)
+                $("#inputCategoryName").val(e.Name)
+                $("#inputColor").val(e.Color)
+                $("#inputIcon").val(e.Icon)
+            }
+        });
+    }
+    function funcCategoryDelete(isOkey)
+    {
+        if (isOkey == true) {
+            $.ajax({
+                url: "/admin/category/delete",
+                type: "post",
+                data: { Id: $("#inputCategoryId").val() },
+                success: function (e) {
+                    if (e == true) { 
+                        ShowMessage("success", "Tebrikler", "Kayıt silme işlemi başarılı.");
+                        window.location.reload();
+                    } else {
+                        ShowMessage("info", "Bilgilendirme", "Bu kategoriye ait makaleler var.<br/> Lütfen önce makaleleri <b>siliniz</b>.");
+                    }
+                }
+            });
+        }
+
+    }
+    function funcIsOkeyForDelete(e) {
+        $("#inputCategoryId").val(e)
+        if ($("#inputCategoryId").val() != "0") {
+            var html = '<div class="actions">' +
+                       '    <a href="javascript:funcCategoryDelete(true);" class="btn btn-red btn-circle active">       ' +
+                       '        <i class="fa fa-check"></i> Evet                                            ' +
+                       '    </a>                                                                              ' +
+                       '    <a href="javascript:funcCategoryDelete(false);" class="btn btn-red btn-circle active">     ' +
+                       '        <i class="fa fa-times"></i> İptal                                               ' +
+                       '    </a> ' +
+                       '</div>'
+            ShowMessage("info", "Bilgilendirme", "Bu kaydı silmek istediğinizden emin misiniz?<br/>" + html);
+        } else {
+            ShowMessage("warning", "Uyarı!", "Silinecek bir makale seçilmedi.");
+        }
+
+    }
+</script>

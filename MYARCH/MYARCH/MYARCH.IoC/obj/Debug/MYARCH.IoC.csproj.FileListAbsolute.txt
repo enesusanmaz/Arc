@@ -1,0 +1,86 @@
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\obj\Debug\MYARCH.IoC.csprojResolveAssemblyReference.cache
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.IoC.dll.config
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.IoC.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.IoC.pdb
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.CORE.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.DATA.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\System.Web.Mvc.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\Unity.Mvc5.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\EntityFramework.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.CORE.pdb
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.DATA.pdb
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\System.Web.Mvc.xml
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\bin\Debug\EntityFramework.xml
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\obj\Debug\MYARCH.IoC.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.IoC\obj\Debug\MYARCH.IoC.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.IoC.dll.config
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.IoC.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.IoC.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.CORE.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.DATA.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\System.Web.Mvc.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\Unity.Mvc5.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\EntityFramework.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.CORE.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.DATA.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\System.Web.Mvc.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\EntityFramework.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\obj\Debug\MYARCH.IoC.csprojResolveAssemblyReference.cache
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\obj\Debug\MYARCH.IoC.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\obj\Debug\MYARCH.IoC.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.SERVICES.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.DTO.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.SERVICES.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.DTO.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\AutoMapper.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\AutoMapper.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\AutoMapper.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\AutoMapper.Net4.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.UTILITIES.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.IoC\bin\Debug\MYARCH.UTILITIES.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\AutoMapper.Net4.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.IoC.dll.config
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.IoC.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.IoC.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\Microsoft.Web.Infrastructure.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.CORE.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.DATA.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.SERVICES.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\System.Web.Mvc.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\Unity.Mvc5.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\EntityFramework.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.DTO.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\AutoMapper.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.UTILITIES.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.CORE.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.DATA.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.SERVICES.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\System.Web.Mvc.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\EntityFramework.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.DTO.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\AutoMapper.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\AutoMapper.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\bin\Debug\MYARCH.UTILITIES.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\obj\Debug\MYARCH.IoC.csprojResolveAssemblyReference.cache
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\obj\Debug\MYARCH.IoC.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.IoC\obj\Debug\MYARCH.IoC.pdb

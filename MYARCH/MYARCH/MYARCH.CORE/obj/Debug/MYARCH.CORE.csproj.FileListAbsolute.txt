@@ -1,0 +1,10 @@
+c:\users\ercan\documents\visual studio 2013\Projects\MYARCH.CORE\MYARCH.CORE\obj\Debug\MYARCH.CORE.csprojResolveAssemblyReference.cache
+c:\users\ercan\documents\visual studio 2013\Projects\MYARCH.CORE\MYARCH.CORE\bin\Debug\MYARCH.CORE.dll
+c:\users\ercan\documents\visual studio 2013\Projects\MYARCH.CORE\MYARCH.CORE\bin\Debug\MYARCH.CORE.pdb
+c:\users\ercan\documents\visual studio 2013\Projects\MYARCH.CORE\MYARCH.CORE\obj\Debug\MYARCH.CORE.dll
+c:\users\ercan\documents\visual studio 2013\Projects\MYARCH.CORE\MYARCH.CORE\obj\Debug\MYARCH.CORE.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.CORE\obj\Debug\MYARCH.CORE.csprojResolveAssemblyReference.cache
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.CORE\obj\Debug\MYARCH.CORE.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.CORE\obj\Debug\MYARCH.CORE.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.CORE\bin\Debug\MYARCH.CORE.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.CORE\bin\Debug\MYARCH.CORE.pdb

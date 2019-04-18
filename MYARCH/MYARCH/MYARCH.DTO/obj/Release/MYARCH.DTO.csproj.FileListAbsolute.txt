@@ -1,0 +1,5 @@
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DTO\bin\Release\MYARCH.DTO.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DTO\bin\Release\MYARCH.DTO.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DTO\obj\Release\MYARCH.DTO.csprojResolveAssemblyReference.cache
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DTO\obj\Release\MYARCH.DTO.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DTO\obj\Release\MYARCH.DTO.pdb

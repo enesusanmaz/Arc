@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Login Ol";
+    Layout = "~/Views/Shared/_Login_Layout.cshtml";
+}
+@if (Session["SessionContext"] != null)
+{
+    Response.Redirect("/profile");
+}
+<div class="card card-container">
+    <img id="profile-img" class="profile-img-card" src="/Assets/Custom/img/avatar_2x.png" />
+    <p id="profile-name" class="profile-name-card"></p>
+    <form class="form-signin">
+        <span id="reauth-email" class="reauth-email"></span>
+        <input type="text" id="inputUserName" class="form-control" placeholder="kullanıcı adı" required autofocus>
+        <input type="password" id="inputPassword" class="form-control" placeholder="şifre" required>
+        <button class="btn btn-lg btn-primary btn-block btn-signin" type="button" onclick="LoginControl()"><i class="fa fa-sign-in"></i> Login Ol</button>
+    </form>
+</div>
+
+<script>
+    $("body").on("keydown", function (e) {
+        if (e.keyCode == 13)
+            LoginControl();
+    })
+    function LoginControl() {
+        var model = { UserName: $("#inputUserName").val(), Password: $("#inputPassword").val() };
+        if (model.UserName.trim() != "" && model.Password.trim()) {
+            $.ajax({
+                url: "/admin/Login/LoginControl",
+                type: "POST",
+                data: model,
+                success: function (e) {
+                    var sonuc = e;
+                    if (e == "")
+                        ShowMessage("error", "Giriş Hatası", "Yanlış Kullanıcı adı veya şifre");
+                    else
+                        window.location = e;
+                }
+            });
+        } else {
+            ShowMessage("warning", "Boş Geçilemez", "Lütfen Kullanıcı Adı ve Şifre giriniz.");
+        }
+
+    }
+   
+</script>

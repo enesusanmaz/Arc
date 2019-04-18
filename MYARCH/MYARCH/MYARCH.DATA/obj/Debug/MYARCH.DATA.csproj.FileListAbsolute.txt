@@ -1,0 +1,36 @@
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.DATA.dll.config
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.DATA.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.DATA.pdb
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\EntityFramework.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.CORE.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.CORE.pdb
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\EntityFramework.xml
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\obj\Debug\MYARCH.DATA.csprojResolveAssemblyReference.cache
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\obj\Debug\MYARCH.DATA.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DATA\obj\Debug\MYARCH.DATA.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.DATA.dll.config
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.DATA.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.DATA.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\EntityFramework.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\EntityFramework.SqlServer.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.CORE.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\MYARCH.CORE.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\EntityFramework.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\bin\Debug\EntityFramework.SqlServer.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\obj\Debug\MYARCH.DATA.csprojResolveAssemblyReference.cache
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\obj\Debug\MYARCH.DATA.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DATA\obj\Debug\MYARCH.DATA.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\MYARCH.DATA.dll.config
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\MYARCH.DATA.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\MYARCH.DATA.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\EntityFramework.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\EntityFramework.SqlServer.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\MYARCH.CORE.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\MYARCH.CORE.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\EntityFramework.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\bin\Debug\EntityFramework.SqlServer.xml
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\obj\Debug\MYARCH.DATA.csprojResolveAssemblyReference.cache
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\obj\Debug\MYARCH.DATA.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH\MYARCH.DATA\obj\Debug\MYARCH.DATA.pdb

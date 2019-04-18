@@ -1,0 +1,9 @@
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DTO\bin\Debug\MYARCH.DTO.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DTO\bin\Debug\MYARCH.DTO.pdb
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DTO\obj\Debug\MYARCH.DTO.dll
+C:\Users\Ercan\Documents\Visual Studio 2013\Projects\MYARCH.CORE\MYARCH.DTO\obj\Debug\MYARCH.DTO.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DTO\bin\Debug\MYARCH.DTO.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DTO\bin\Debug\MYARCH.DTO.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DTO\obj\Debug\MYARCH.DTO.dll
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DTO\obj\Debug\MYARCH.DTO.pdb
+F:\Egitim\Komple Kurs Serisi\1 Komple Web Geliştirici Kursu\Documents\MYARCH.CORE\MYARCH.DTO\obj\Debug\MYARCH.DTO.csprojResolveAssemblyReference.cache

@@ -1,0 +1,84 @@
+﻿@using MYARCH.UTILITIES.SessionOperations
+@{
+    if (Session["SessionContext"] == null)
+    {
+        Response.Redirect("/login");
+    }
+
+    var FullName = ((SessionContext)Session["SessionContext"]).FullName;
+    var Job = ((SessionContext)Session["SessionContext"]).Job;
+    var ImageUrl = ((SessionContext)Session["SessionContext"]).ImageUrl;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <link href="~/Assets/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Assets/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Assets/Custom/css/Admin.css" rel="stylesheet" />
+    <link href="~/Assets/Custom/css/profile.css" rel="stylesheet" />
+    <link href="~/Assets/Custom/css/component.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/Toastr/toastr.css" rel="stylesheet" />
+    <script src="~/Assets/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Assets/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="admin-content">
+        <aside class="sm-side card-shadow">
+            <div class="user-head">
+                <div class="user-overlay"></div>
+                <a class="admin-avatar" href="javascript:;">
+                    <img style="width:64px; height:60px;" src="@ImageUrl/60/60">
+                </a>
+                <div class="user-name">
+                    <h5><a href="#">@FullName</a></h5>
+                    <span><a href="#">@Job</a></span>
+                </div>
+                <a class="mail-dropdown pull-right" href="javascript:$('.sm-side').toggle();">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="admin-nav ">
+                <ul class="admin-nav">
+                    <li>
+                        <a href="/profile"><i class="fa fa-user"></i> Profil</a>
+                    </li>
+                    <li>
+                        <a href="/post"><i class="fa fa-edit"></i> Makale</a>
+                    </li>
+                    <li>
+                        <a href="/category"><i class="fa fa-list-ol"></i> Kategori</a>
+                    </li>
+                    <li>
+                        <a href="/admin/login/logout">
+                            <i class="fa fa-sign-out"></i> Çıkış
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <aside class="lg-side ">
+            <div class="admin-head card-shadow">
+                <a href="javascript:$('.sm-side').toggle();"><i class="fa fa-bars" style="font-size:25px; color:#fff"></i> </a>
+                <h2 class="page-title">@RenderSection("pageTitle", required: false)  </h2>
+            </div>
+            <div class="admin-body">
+                @RenderBody()
+            </div>
+        </aside>
+    </div>
+    <link href="~/Assets/plugins/CodeMirror/codemirror.min.css" rel="stylesheet" />
+    <link href="~/Assets/plugins/CodeMirror/monokai.min.css" rel="stylesheet" />
+    <script src="~/Assets/plugins/CodeMirror/codemirror.min.js"></script>
+    <script src="~/Assets/plugins/CodeMirror/xml.min.js"></script>
+    <script src="~/Assets/plugins/CodeMirror/formatting.min.js"></script>
+    <link href="~/Assets/plugins/SummerNote/summernote.css" rel="stylesheet" />
+    <script src="~/Assets/plugins/SummerNote/summernote.min.js"></script>
+    <script src="~/Assets/plugins/Toastr/toastr.js"></script>
+    <script src="~/Assets/Custom/Js/Utility.js"></script>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
